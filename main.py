@@ -67,6 +67,8 @@ def solver():
                 return True
             else:
                 sudoku_board[i][j] = 0
+                
+#     False if nothing (1 through 9) yield an "accepted answer"
     return False
 
 display_board(sudoku_board)
